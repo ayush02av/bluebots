@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+body {
+  font-family: poppins;
+}
+.blue {
+  color: rgb(13,110,253);
+}
+
+h1 {
+  text-align: center;
+}
+
+iframe {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+.container p {
+  margin-left: 1rem;
+}
