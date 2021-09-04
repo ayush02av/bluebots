@@ -1,55 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BlueBots</title>
-    <link rel="stylesheet" href="/styles/index.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+
+
+
+  <title>BlueBots</title>
 </head>
+
 <body>
+  <main>
+    <div class="container py-4">
+      <nav class="
+            navbar navbar-expand-lg navbar-light
+            bg-white
+            border-bottom
+            pb-3
+            mb-4
+            sticky-top
+          ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Blue<span class="text-primary">Bot</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Roadmaps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Video tut</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-	<div id="root">
-		<div id="head-container"></div>
-		<div id="body">
-			Blue Bots
-			<br><br><br>
-			<div>
-				<ul>
-					<h2>Backend</h2>
-					<br>
-					<li><a href="topics/backend/roadmap.html" target="_blank">Roadmap</a></li>
-					<br>
-					<li><a href="topics/backend/documentation.html" target="_blank">Documentation</a></li>
-					<br>
-					<li><a href="topics/backend/videos.html" target="_blank">Video Lectures</a></li>
-				</ul>
-				<br><br><br>
-				<ul>
-					<h2>Frontend</h2>
-					<br>
-					<li><a href="topics/frontend/roadmap.html" target="_blank">Roadmap</a></li>
-					<br>
-					<li><a href="topics/frontend/documentation.html" target="_blank">Documentation</a></li>
-					<br>
-					<li><a href="topics/frontend/videos.html" target="_blank">Video Lectures</a></li>
-				</ul>
-				<br><br><br>
-				<ul>
-					<h2>React</h2>
-					<br>
-					<li><a href="topics/react/roadmap.html" target="_blank">Roadmap</a></li>
-					<br>
-					<li><a href="topics/react/documentation.html" target="_blank">Documentation</a></li>
-					<br>
-					<li><a href="topics/react/videos.html" target="_blank">Video Lectures</a></li>
-				</ul>
-			</div>
-		</div>
-		<div id="foot-container"></div>
-	</div>
+      <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold" >
+            Blue<span class="text-primary">Bots</span>
+          </h1>
+          <p class="col-md-8 fs-4">
+            Using a series of utilities, you can create this jumbotron, just
+            like the one in previous versions of Bootstrap. Check out the
+            examples below for how you can remix and restyle it to your
+            liking.
+          </p>
+          <button class="btn btn-primary btn-lg" type="button">
+            Explore
+          </button>
+        </div>
+      </div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="/scripts/index.js"></script>
+      <div class="row align-items-md-stretch">
+        <div class="col-md-6 pt-5" >
+          <div class="h-100 p-5 text-white bg-dark rounded-3">
+            <h2>Front End</h2>
+            <p>
+              Swap the background-color utility and add a `.text-*` color
+              utility to mix up the jumbotron look. Then, mix and match with
+              additional component themes and more.
+            </p>
+            <button class="btn btn-outline-light" type="button">
+              Example button
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6 pt-5">
+          <div class="h-100 p-5 bg-light border rounded-3">
+            <h2>Back End</h2>
+            <p>
+              Or, keep it light and add a border for some added definition to
+              the boundaries of your content. Be sure to look under the hood
+              at the source HTML here as we've adjusted the alignment and
+              sizing of both column's content for equal-height.
+            </p>
+            <button class="btn btn-outline-secondary" type="button">
+              Example button
+            </button>
+          </div>
+        </div>
+        <div class="col-md-6 pt-5">
+          <div class="h-100 p-5 text-white bg-dark rounded-3">
+            <h2>React.js</h2>
+            <p>
+              Swap the background-color utility and add a `.text-*` color
+              utility to mix up the jumbotron look. Then, mix and match with
+              additional component themes and more.
+            </p>
+            <button class="btn btn-outline-light" type="button">
+              Example button
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <footer class="pt-3 mt-4 text-muted border-top">&copy; 2021</footer>
+    </div>
+  </main>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+ 
 </body>
+
 </html>
