@@ -2,24 +2,24 @@ const nodes_container = document.getElementById('roadmap-nodes-container');
 
 const roadmap = [
     {
-        heading:'Python Basics',
-        content:'Learn Programming basics in Python Language'
+        heading:'HTML Basics',
+        content:'Learn Hyper Text Markup Language, the markup language which sits at the base of every webpage. It is used to make the structure of a webpage, just like the bone structure of a human body.'
     },
     {
-        heading:'OOPs in Python',
-        content:'Learn OOPs concepts in Python Language'
+        heading:'CSS Basics',
+        content:'Learn Cascading Style Sheets, a language used to design webpages, and make them attractive.'
     },
     {
-        heading:'Django Web Framework',
-        content:'Learn Django Web Framework based on Python Language'
+        heading:'Javascript Basics',
+        content:'Learn the most interesting aspect of frontend development - Javascript. It\'s the brain of any website. It can make cool animations, intuitive and interactive webpages, you name it.'
     },
     {
         heading:'Blog Website',
-        content:'Practice your skills by making a simple blog website. Integrate Login/Signup forms & updating profile.'
+        content:'Practice your skills by making a simple blog website. Use some frontend CSS library like Bootstrap or Tailwind.'
     },
     {
         heading:'Full Fledged Web App',
-        content:'Enhance your skills by making a Full Fledged Web App. Integrate extensive models & try to clone some social media site.'
+        content:'Enhance your skills by making a Full Fledged Web App. Use some frontend javascript library like React or Angular.'
     },
 ]
 
