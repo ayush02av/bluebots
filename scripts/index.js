@@ -1,2 +1,2 @@
-$("#head-container").load("components/header.html");
-$("#foot-container").load("components/footer.html");
+$("#head-container").load("/components/header.html");
+$("#foot-container").load("/components/footer.html");

@@ -1,0 +1,86 @@
+:root{
+    --node-original: 200px;
+    --node-hover: 300px;
+}
+
+#topic{
+    display: none;
+}
+
+#roadmap-dashboard > span{
+    padding: 15px 30px;
+    cursor: pointer;
+    margin: 0 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#roadmap-dashboard > span:hover{
+    padding: 16px 32px;
+    transition: 0.2s;
+}
+
+#new-session{
+    background-color: lightgreen;
+}
+
+#my-progress{
+    background-color: lightskyblue;
+}
+
+#clear-progress{
+    background-color: tomato;
+}
+
+#roadmap-nodes-container{
+    width: calc(100% - 100px);
+    padding: 0 50px;
+}
+
+.roadmap-node-container{
+    width: var(--node-original);
+    height: var(--node-original);
+
+    cursor: pointer;
+
+    border-radius: 4px;
+
+    background-color: cornsilk;
+
+    box-shadow: -5px 5px 10px rgb(0, 0, 0, 0.1);
+    transition: 0.5s;
+
+    padding: 20px;
+
+    margin: 20px calc( 50% - var(--node-original)/2 );
+}
+
+.roadmap-node-container > h1{
+    /* line-height: var(--node-original); */
+}
+
+.roadmap-node-container > p{
+    margin-top: 10px;
+    display: none;
+    text-align: left;
+}
+
+.roadmap-node-container:hover{
+    box-shadow: -10px 12px 10px rgb(0, 0, 0, 0.2);
+    transition: 0.5s;
+    
+    width: var(--node-hover);
+    /* height: var(--node-hover); */
+
+    margin: 20px calc( 50% - var(--node-hover)/2 );
+}
+
+.roadmap-node-container:hover > p{
+    display: block;
+}
+
+.roadmap-node-container:hover > h1{
+    line-height: initial;
+    transition: 1s;
+}
