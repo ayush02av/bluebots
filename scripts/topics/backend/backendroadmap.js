@@ -2,47 +2,53 @@ const nodes_container = document.getElementById('roadmap-nodes-container');
 
 const roadmap = [
     {
-        heading:'Python Basics',
-        content:'Learn Programming basics in Python Language'
+        heading:'Programming Basics',
+        content:'Learn Programming basics in Python Language',
+        link:'https://youtu.be/bJzb-RuUcMU'
     },
     {
-        heading:'OOPs in Python',
-        content:'Learn OOPs concepts in Python Language'
+        heading:'variables',
+        content:'Declaring & using variables in Python',
+        link:'https://youtu.be/hEgO047GxaQ'
     },
     {
-        heading:'Django Web Framework',
-        content:'Learn Django Web Framework based on Python Language'
+        heading:'if..elif..else',
+        content:'Conditional Statements in Python',
+        link:'https://youtu.be/PqFKRqpHrjw'
     },
     {
-        heading:'Blog Website',
-        content:'Practice your skills by making a simple blog website. Integrate Login/Signup forms & updating profile.'
+        heading:'for..while',
+        content:'Loops in Python',
+        link:'https://youtu.be/0ZvaDa8eT5s'
     },
     {
-        heading:'Full Fledged Web App',
-        content:'Enhance your skills by making a Full Fledged Web App. Integrate extensive models & try to clone some social media site.'
+        heading:'def',
+        content:'Declaring, using, & understadning the need of functions',
+        link:'https://youtu.be/BVfCWuca9nw'
+    },
+    {
+        heading:'OOPs concepts',
+        content:'Understanding the need of Object Oriented Programming in Python',
+        link:'https://youtu.be/pTB0EiLXUC8'
+    },
+    {
+        heading:'Classes in Python',
+        content:'Declaring, using & understanding classes in Python',
+        link:'https://youtu.be/qiSCMNBIP2g'
+    },
+    {
+        heading:'Django web framework',
+        content:'Learning the Django Web Framework in Python',
+        link:'https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p'
+    },
+    {
+        heading:'A small Blog Website',
+        content:'Practice skills by making a small blog site',
+        link:'https://youtu.be/c-X6zG0kQxY'
+    },
+    {
+        heading:'Social media clone',
+        content:'Enhance skills by making a social media clone site',
+        link:'https://youtu.be/2tbDNMhQjLE'
     },
 ]
-
-for(i=0; i<roadmap.length; i++)
-{
-
-    const node = document.createElement('div');
-    node.classList.add('roadmap-node-container');
-
-    const node_heading_element = document.createElement('h1');
-    const node_heading_data = document.createTextNode(roadmap[i].heading);
-    node_heading_element.appendChild(node_heading_data);
-
-    const node_para_element = document.createElement('p');
-    const node_para_data = document.createTextNode(roadmap[i].content);
-    node_para_element.appendChild(node_para_data);
-    
-    node.appendChild(node_heading_element);
-    node.appendChild(node_para_element);
-
-    node.setAttribute('id', 'node'+i);
-    node.addEventListener("click", function(){
-        NewSession(node.id);
-    });
-    nodes_container.appendChild(node);
-}
