@@ -44,10 +44,11 @@ The flow of the website is as follows
 
 [Link to the Bluebots Project website](https://bluebots.netlify.app/ "BlueBots")
 
-## Video Demo (Mandatory)
+## Video Demo
 
+[Link to the Video Demonstration of the BlueBots Website](https://drive.google.com/file/d/17CK1sKKSy6RjRmJ22WGyapVqQ6JMRkWM/view?usp=sharing "Video Demonstration")
 
-## Screenshots (Mandatory)
+## Screenshots
 ![](images/Screenshot%202021-09-05%20at%205.35.23%20PM.png)
 ![](images/Screenshot%202021-09-05%20at%205.35.37%20PM.png)
 ![](images/Screenshot%202021-09-05%20at%205.35.51%20PM.png)
