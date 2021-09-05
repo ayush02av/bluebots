@@ -18,7 +18,7 @@ While making this project we tried to come up with solution to the following pro
 > EdTech for Rural India
 - Urban and Rural students often face differences in terms of financial conditions, exposure, language, etc. despite this, they all deserve a friendly platform to learn. To bridge this gap we have made a compilation of best learning video by expects and made them availble on one platform, for quick and easy leaning we have also made documentation readily available on our website.
 
-the flow of the website is as follows 
+The flow of the website is as follows 
 1. choose which skill you want to learn Frontend / backend / React
 2. Study the detailed roadmap 
 3. check the video resources for step by step guide 
