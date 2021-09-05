@@ -1,6 +1,5 @@
 :root{
     --node-original: 200px;
-    --node-hover: 300px;
 }
 
 #topic{
@@ -51,8 +50,6 @@
     width: var(--node-original);
     min-height: var(--node-original);
 
-    /* position: absolute; */
-
     cursor: pointer;
 
     border-radius: 4px;
@@ -80,7 +77,6 @@
 
 .roadmap-node-container > p{
     margin-top: 10px;
-    /* display: none; */
     font-size: 18px;
     text-align: left;
 }
@@ -88,10 +84,8 @@
 .roadmap-node-container:hover{
     box-shadow: -10px 12px 10px rgb(0, 0, 0, 0.2);
     transition: 0.5s;
-    
-    width: var(--node-hover);
 }
 
-.roadmap-node-container:hover > p{
-    display: block;
+img{
+    max-width: 100%;
 }
