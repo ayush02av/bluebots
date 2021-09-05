@@ -48,4 +48,12 @@ The flow of the website is as follows
 
 
 ## Screenshots (Mandatory)
+![](images/Screenshot%202021-09-05%20at%205.35.23%20PM.png)
+![](images/Screenshot%202021-09-05%20at%205.35.37%20PM.png)
+![](images/Screenshot%202021-09-05%20at%205.35.51%20PM.png)
+![](images/Screenshot%202021-09-05%20at%205.35.57%20PM.png)
+![](images/Screenshot%202021-09-05%20at%205.36.07%20PM.png)
+![](images/Screenshot%202021-09-05%20at%205.36.12%20PM.png)
+![](images/Screenshot%202021-09-05%20at%205.36.25%20PM.png)
+![](images/Screenshot%202021-09-05%20at%205.36.45%20PM.png)
 
